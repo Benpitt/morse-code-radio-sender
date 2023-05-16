@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="G6)M^IEsPb{aP-6S?_L^">myImage</variable></variables><block type="pxt-on-start" id="RIuii(7aJ?wl4TC{mVEb" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="r3EXo@+BH`|JAkfr^K,)"><value name="ID"><shadow type="math_number_minmax" id="gr?1RIsny5FM2Jazd1y_"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">160</field></shadow></value></block></statement></block><block type="function_definition" id="aEqq}zC-nhMWpr*J+j!Y" x="1307" y="-66"><mutation name="SOS" functionid="MQ|xR:b!.5,`R.78FNgu"></mutation><field name="function_name">SOS</field><statement name="STACK"><block type="controls_repeat_ext" id="SQW`O7B`aS{6FVjjHStU"><value name="TIMES"><shadow type="math_whole_number" id="$)pdypM_{%eGuw/_Q.Z^"><field name="NUM">9999</field></shadow></value><statement name="DO"><block type="function_call" id="upVV,cqMn(G2NB!SNlN1"><mutation name="dot" functionid="KUYGi,|5-E(/jQRM(8b/"></mutation><next><block type="function_call" id="ANNgPl.QAsQlgta_5O*y"><mutation name="dot" functionid="KUYGi,|5-E(/jQRM(8b/"></mutation><next><block type="function_call" id="Y5WkxXlL370^{95/ns.x"><mutation name="dot" functionid="KUYGi,|5-E(/jQRM(8b/"></mutation><next><block type="device_show_leds" id="SOlql467;:DN_Bp3Imz6"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="rNN}3wi,73o;{lVtJ{,s"><value name="pause"><shadow type="timePicker" id="kQ1vHR`$]+#1YaVU7ol4"><field name="ms">100</field></shadow></value><next><block type="function_call" id="DP#6)I9NgP@:P73_U3cY"><mutation name="dash" functionid="O$2.c8?ZryCD7La8o4k!"></mutation><next><block type="function_call" id="S8#vcO^L%MsXEu4:~$w:"><mutation name="dash" functionid="O$2.c8?ZryCD7La8o4k!"></mutation><next><block type="function_call" id="WnXOc:5V0%-Ib~L:$k^="><mutation name="dash" functionid="O$2.c8?ZryCD7La8o4k!"></mutation><next><block type="device_show_leds" id="h6SzNAeROrjXouFEwp$G"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="mDd)oSnSR(+@E`,AyI?I"><value name="pause"><shadow type="timePicker" id="ItbY$@CN.aO`XQP6Qy?*"><field name="ms">100</field></shadow></value><next><block type="function_call" id="p?)W,[pr`^/arjVnzqB["><mutation name="dot" functionid="KUYGi,|5-E(/jQRM(8b/"></mutation><next><block type="function_call" id="L=Czf[vTgaK%ry;VX@^y"><mutation name="dot" functionid="KUYGi,|5-E(/jQRM(8b/"></mutation><next><block type="function_call" id="QSQ{dhE_%r:P936EaEYm"><mutation name="dot" functionid="KUYGi,|5-E(/jQRM(8b/"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_forever" id="3ofpf2KuW#B@r$](qjul" x="205" y="0"></block><block type="function_definition" id="ypxFW+I(#j(y$UbI%ck-" x="929" y="14"><mutation name="dot" functionid="KUYGi,|5-E(/jQRM(8b/"></mutation><field name="function_name">dot</field><statement name="STACK"><block type="device_show_leds" id="=SoL[(;H0Z?J8%,L_n5W"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="radio_datagram_send_string" id="iVF]0KfT:JhLK7`,YU69"><value name="msg"><shadow type="text" id="^S3MzBNg0-h.4Q`XE;t2"><field name="TEXT">a</field></shadow></value><next><block type="device_show_leds" id=".!W/Gze.tWT5ILgE7Z?i"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="{~i|%K(v{nhb+tN?#:PG"><value name="pause"><shadow type="timePicker" id="c!7mh#jTH.K03?VY+.;a"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="*AQ25]II:`aWnPrnD%!Q" x="656" y="29"><mutation name="dash" functionid="O$2.c8?ZryCD7La8o4k!"></mutation><field name="function_name">dash</field><statement name="STACK"><block type="device_show_leds" id="1YXt%(YBz[ZD5o31M:|k"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="radio_datagram_send" id=")Doz`?LJgd9uy6sZGL|R"><value name="value"><shadow type="math_number" id="^o9Wkh;(#IN[ECZ?MKX+"><field name="NUM">5</field></shadow></value><next><block type="device_show_leds" id="7VWP{IJz#;M0V|TuJObg"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="u6ze6]|S4j@]22[ixQAe"><value name="pause"><shadow type="timePicker" id="QB}iB7R[0pUfRikzVv0S"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="3i;s2szB#Y.^}9/glRjs" x="401" y="56"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="function_call" id="kP0{`ZVsWQb~m(;hG=U^"><mutation name="SOS" functionid="MQ|xR:b!.5,`R.78FNgu"></mutation></block></statement></block><block type="device_button_event" id="3MG*?YH?0@F@4M?nfBy}" x="76" y="164"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="J+=ac$L5?eD=@m)yj2+B"><value name="value"><shadow type="math_number" id="T[hURaW0TS@j-V+rg2D5"><field name="NUM">5</field></shadow></value></block></statement></block><block type="device_button_event" id="kCsc(o7+hy#b4^hu_yPL" x="150" y="354"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="%Bw~*Qzk8TGz4~R97m0$"><value name="msg"><shadow type="text" id="x-`E^[jiNv+0!?L,],U3"><field name="TEXT">a</field></shadow></value></block></statement></block></xml>
