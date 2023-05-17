@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
-    radio.sendNumber(5)
     dot()
+    radio.sendNumber(5)
 })
 function dash () {
     basic.showLeds(`
@@ -10,7 +10,7 @@ function dash () {
         . . . . .
         . . . . .
         `)
-    radio.sendNumber(5)
+    basic.pause(100)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -28,7 +28,7 @@ function dot () {
         . # # # .
         . . . . .
         `)
-    radio.sendString("a")
+    basic.pause(100)
     basic.showLeds(`
         . . . . .
         . . . . .
