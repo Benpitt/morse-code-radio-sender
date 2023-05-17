@@ -1,5 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     radio.sendNumber(5)
+    dot()
 })
 function dash () {
     basic.showLeds(`
@@ -39,9 +40,11 @@ function dot () {
 }
 input.onButtonPressed(Button.AB, function () {
     SOS()
+    radio.sendValue("sos", 1)
 })
 input.onButtonPressed(Button.B, function () {
     radio.sendString("a")
+    dash()
 })
 function SOS () {
     for (let index = 0; index < 9999; index++) {
